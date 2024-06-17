@@ -1,5 +1,5 @@
 import { IconType } from 'react-icons';
-import { BsDiscord, BsGithub, BsInstagram, BsTiktok, BsTwitterX, BsYoutube, BsTwitch } from 'react-icons/bs';
+import { BsDiscord, BsGithub, BsKick, BsInstagram, BsTiktok, BsTwitterX, BsYoutube, BsTwitch } from 'react-icons/bs';
 import { DiNodejsSmall } from 'react-icons/di';
 import { SiCss3, SiExpress, SiFirebase, SiPhp ,SiHtml5, SiHtmlacademy, SiJavascript, SiMongodb, SiNextdotjs, SiPython, SiTailwindcss, SiTypescript, SiVercel } from 'react-icons/si';
 import { TbBrandCSharp, TbBrandNextjs, TbBrandVercel, TbFileTypeJsx } from 'react-icons/tb';
@@ -33,6 +33,11 @@ export const socialMediaAccounts: { name: string; link: string; iconURL: IconTyp
     name: 'Discord',
     link: 'https://discord.com/users/' + discordId,
     iconURL: BsDiscord,
+  },
+    {
+    name: 'Kick',
+    link: 'https://discord.com/users/' + discordId,
+    iconURL: BsKick,
   },
   {
     name: 'Instagram',
