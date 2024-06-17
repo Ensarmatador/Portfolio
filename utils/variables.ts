@@ -1,7 +1,7 @@
 import { IconType } from 'react-icons';
 import { BsDiscord, BsGithub, BsInstagram, BsTiktok, BsTwitterX, BsYoutube, BsTwitch } from 'react-icons/bs';
 import { DiNodejsSmall } from 'react-icons/di';
-import { SiCss3, SiExpress, SiFirebase, SiHtml5, SiHtmlacademy, SiJavascript, SiMongodb, SiNextdotjs, SiPython, SiTailwindcss, SiTypescript, SiVercel } from 'react-icons/si';
+import { SiCss3, SiExpress, SiFirebase, SİPhp ,SiHtml5, SiHtmlacademy, SiJavascript, SiMongodb, SiNextdotjs, SiPython, SiTailwindcss, SiTypescript, SiVercel } from 'react-icons/si';
 import { TbBrandCSharp, TbBrandNextjs, TbBrandVercel, TbFileTypeJsx } from 'react-icons/tb';
 import { jsx } from 'react/jsx-runtime';  
 
@@ -85,6 +85,10 @@ export const technologiesAndLanguages: { name: string; iconURL: IconType }[] = [
     iconURL: SiExpress,
   },
   {
+    name: 'Php',
+    iconURL: Siphp,
+  },
+    {
     name: 'Css',
     iconURL: SiCss3,
   },
