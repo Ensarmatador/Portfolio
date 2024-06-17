@@ -85,10 +85,6 @@ export const technologiesAndLanguages: { name: string; iconURL: IconType }[] = [
     iconURL: SiExpress,
   },
   {
-    name: 'Php',
-    iconURL: Siphp,
-  },
-    {
     name: 'Css',
     iconURL: SiCss3,
   },
